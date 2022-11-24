@@ -16,7 +16,7 @@ class Calculator(unittest.TestCase):
         x = 10
         y = 20
         mult = Mul(x, y)
-        self.assertEqual(mult, 200)
+        self.assertEqual(mult, 500)
 
 if __name__ == '__main__':
     unittest.main()
