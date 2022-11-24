@@ -8,9 +8,9 @@ class Calculator(unittest.TestCase):
 
     def test_add(self):
         x = 10
-        y = 20
+        y = 30
         sum = Add(x, y)
-        self.assertEqual(sum, 30)
+        self.assertEqual(sum, 40)
 
     def test_mult(self):
         x = 10
