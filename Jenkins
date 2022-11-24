@@ -1,18 +1,18 @@
 pipeline { 
     agent any
     stages {
-        stage('Clone Git') {
+        stage('Git Entry') {
             steps {
                 git 'https://github.com/Likhith27/Jenkins_demo2'
             }
         }
-        stage('File 1 Code Build') {
+        stage('Subtraction function build') {
             steps {
                 sh "chmod u+x Task1.py"
                 sh "./Task1.py"
             }
         }
-        stage('File 2 Code Build'){
+        stage('Squares Build'){
             steps {
                 sh "chmod u+x Task2.py"
                 sh "./Task2.py"
