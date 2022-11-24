@@ -10,13 +10,13 @@ class Calculator(unittest.TestCase):
         x = 10
         y = 30
         sum = Add(x, y)
-        self.assertEqual(sum, 50)
+        self.assertEqual(sum, 5055)
 
     def test_mult(self):
         x = 10
         y = 20
         mult = Mul(x, y)
-        self.assertEqual(mult, 200)
+        self.assertEqual(mult, 2008545)
 
 if __name__ == '__main__':
     unittest.main()
