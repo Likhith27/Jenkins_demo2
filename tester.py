@@ -10,7 +10,7 @@ class Calculator(unittest.TestCase):
         x = 10
         y = 30
         sum = Add(x, y)
-        self.assertEqual(sum, 40)
+        self.assertEqual(sum, 50)
 
     def test_mult(self):
         x = 10
